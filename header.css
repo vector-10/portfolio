@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Redressed&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #37474f;
+}
+li{
+    list-style: none;
+}
+.logo{
+    font-size: 40px;
+    color: #9caafa;
+}
+span{
+    font-family: patrick hand;
+    font-size: 55px;
+}
+a{
+    color: #eceff1;
+    text-decoration: none;
+    transition: 0.7s ease;
+    font-weight: bold;
+    font-family: 'patrick hand' cursive;
+}
+.navbar{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 24px;
+    width: 100%;
+}
+@media  (max-width:64rem) {
+    .navbar{
+        width: 100%;
+    }
+    
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+.logsign{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-weight: bold;
+}
+button{
+    border: 0;
+    color: black;
+    background-color: #5c6bc0;
+    display: block;
+    padding: 10px;
+    border-radius: 12px;
+    transition: 0.7s ease;
+}
+button:hover{
+    background-color: #4959b8 ;
+    color: black;
+}
+.nav-link{
+    transition: 0.5s ease;   
+}
+.nav-link:hover{
+    color:#9caafa;
+    border-bottom: 2px solid #9caafa;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+    
+}
+.statement{
+    background-color: #9caafa;
+    height: 40px;
+    text-align: center;
+    font-size: large;
+    font-family: 'patrick hand' cursive;
+    line-height: 40px;
+
+}
+@media  (max-width:64rem) {
+    .statement{
+        font-size: 26px;
+    }
+    
+}
+
+@media  (max-width:24rem) {
+    .statement{
+        font-size: small;
+    }
+    
+}
+.container{
+    background-image: url('website.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+@media  (max-width:64rem) {
+    .container{
+        height: 250px;        
+    }
+    
+}
+
+.containertext{
+    width: 380px;
+    height: 330px;
+    background: linear-gradient(to top,rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%);
+    color: azure;
+    padding-top: 10px;
+    border-radius: 10px;
+    line-height: 27px;
+    text-align: center;
+    font-size: large;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 160px;
+}
+
+@media  (max-width:64rem) {
+    .containertext{
+        font-size: small;
+        line-height: 17px;
+        width: 200px;
+        height: 180px;
+        margin-top: 40px;
+        margin-left: 50px;
+           
+    }    
+}
+h2{
+    font-size: 30px;
+    font-family: 'patrick hand' cursive;
+    padding: 20px;
+    
+}
+@media  (max-width:64rem) {
+    h2{
+        font-size: small;
+        padding: 5px;
+    }
+    
+}
+.pricing-text{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media  (max-width:64rem) {
+    .pricing-text{
+        font-size: 20px;
+    }
+    
+}
+
+@media  (max-width:24rem) {
+    .pricing-text{
+        font-size: 14px;
+    }
+    
+}
+
+section{
+    width: 100%;
+    height: 800px;
+    background-color: #37474f;
+    text-align: center;
+}
+@media  (max-width:64rem) {
+    section{
+        height: 800px;
+        
+    }
+    
+}
+@media  (max-width:24rem) {
+    section{
+        height: 1700px;
+        
+    }
+    
+}
+.catalogue{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: #eceff1;
+
+}
+@media  (max-width:64rem) {
+    .catalogue{
+        font-size: 18px;
+        padding: 10px;
+    }
+    
+}
+.site-catalogue{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+img{
+    width: 300px;
+    height: 250px;
+    padding: 5px 5px 60px 5px;
+
+}
+.image-one{
+  margin: 10px;
+  background-color:  white;
+  border-radius: 5px;
+}
+@media  (max-width:64rem) {
+    .image-one{
+        margin: 5px ;
+    }
+    
+}
+.image-two{
+  margin: 10px;
+  background-color:  white;
+  border-radius: 5px;
+}
+.image-three{
+    margin: 10px;
+    background-color:  white;
+    border-radius: 5px;
+}
+.image-four{
+    margin: 10px;
+    background-color:  white;
+    border-radius: 5px;
+}
+.image-five{
+    margin: 10px;
+    background-color:  white;
+    border-radius: 5px;
+}
+.site-info{
+    margin-top: -50px;
+    padding-bottom: 10px;
+}
+aside{
+
+    width: 100%;
+    height: 500px;
+    background-color: #eceff1;
+    
+}
+@media  (max-width:64rem) {
+    aside{
+        height: 680px;
+        width: 100%;
+    }
+    
+}
+
+@media  (max-width:24rem) {
+    aside{
+        height: 850px;
+        width: 100%;
+    }
+    
+}
+
+.profile-card{
+    background-color: #37474f;
+    width: 700px;
+    height: 380px;
+    border-radius: 5px;
+    margin: 10px 30px 30px 50px;
+
+}
+@media  (max-width:64rem) {
+    .profile-card{
+        width: 350px;
+        height: 550px;
+        margin: 10px 10px 30px 90px;
+        text-align: center;
+    }
+}
+@media  (max-width:24rem) {
+    .profile-card{
+        text-align: center;
+        font-size: medium;
+        font-weight: 3px;
+        margin: 0px 0px 0px 10px;
+
+    }
+}
+
+.profile-list{
+    color: white;
+    margin: -250px 0px 0px 350px;
+    line-height: 25px;
+}
+@media  (max-width:64rem) {
+    .profile-list{
+        margin: -20px 0px 0px 0px;
+        text-align: center;
+        line-height: 25px;
+    }
+    
+}
+    
+
+.card-image{
+    padding: 30px;
+    width: 350px;
+    height: 370px;
+    
+}
+.about{
+    padding: 10px 10px 10px 10px;
+    font-family: 'patrick hand' cursive;
+    font-size: 50px;
+    text-align: center;
+}
+@media  (max-width:64rem) {
+    .about{
+        font-size: 25px;
+    }
+    
+}
+.mission{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mission-text{
+    margin: 60px 0px 0px 0px;
+    line-height: 25px;
+    font-size: large;
+    color: #37474f;
+    font-weight: bold;
+    text-align: center;
+}
+@media  (max-width:64rem) {
+    .mission-text{
+        text-align: center;
+        font-size: medium;
+        font-weight: 3px;
+        margin: 70px 0px 0px 70px;
+
+    }
+}
+@media  (max-width:24rem) {
+    .mission-text{
+        text-align: center;
+        font-size: medium;
+        font-weight: 3px;
+        margin: 30px 0px 0px 10px;
+
+    }
+}
+
+span1{
+    padding: 0px 20px 20px 70px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #37474f;
+    text-align: center;
+    
+}
+@media  (max-width:64rem) {
+    span1{
+        padding: 0px 20px 20px 50px; 
+        font-size: 25px;
+    }
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    background-color: #607d8b;
+    color: black;
+
+}
+@media  (max-width:64rem) {
+    footer{
+        flex-direction: column;
+        height: 350px;
+        margin: 0px 0px 0px 0px ;
+    }
+}
+
+.brand{
+    font-weight: bold;
+    margin: 130px 0px 0px -270px;
+    padding: 0px 270px 0px 0px ;
+}
+@media  (max-width:64rem) {
+    .brand{
+        color: black;
+        margin: 10px 0px 0px 250px;
+        
+    }
+    
+}
+@media  (max-width:64rem) {
+    .footer-list{
+        margin: -260px 0px 0px 0px;
+
+    }
+}
+.svg{
+    width: 130px;
+    height: 130px;
+    
+}
+@media  (max-width:64rem) {
+    .svg{
+        width: 50px;
+        margin: -50px 0px 0px 0px;
+    }
+    
+}
+.follow{
+    margin: -10px 0px 0px 0px ;
+    color: white;
+}
+@media  (max-width:64rem) {
+    .follow{
+        margin: 20px 0px 0px 0px ;
+    }
+    
+}
+
+/*extra css for the blog content on the blog page*/
+img{
+    width: 300px;
+    height: 300px;
+
+}
+.blog-content{
+    background-color: #b8b9b9;
+    height: 1000px;
+}
+.blog-text{
+    width: 700px;
+    height: 500px;
+    background-color: #b8b9b9;
+    margin: -100px 0px 0px 350px;
+}
+
+
+
+@media  (max-width:64rem) {
+    .hamburger{
+        display:block;
+        margin-left: 70px;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity:0;
+    }
+    .logsign{
+        display: none;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform:translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #37474f;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+    
+}
